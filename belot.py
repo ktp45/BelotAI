@@ -47,7 +47,7 @@ class Game:
 
     def deal_single_card(self):
         """Also removes the dealt hand from the deck"""
-        top_card = self.deck.pop()
+        top_card = self.deck.pop() 
         return top_card
 
     def change_current_player_index(self):
